@@ -524,3 +524,142 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-none {
+  flex: none;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-\[250px\] {
+  gap: 250px;
+}
+
+.rounded-l {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.rounded-r {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-l-0 {
+  border-left-width: 0px;
+}
+
+.border-r-0 {
+  border-right-width: 0px;
+}
+
+.border-y-light-grey {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(230 230 230 / var(--tw-border-opacity));
+  border-bottom-color: rgb(230 230 230 / var(--tw-border-opacity));
+}
+
+.border-l-light-grey {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(230 230 230 / var(--tw-border-opacity));
+}
+
+.border-r-light-grey {
+  --tw-border-opacity: 1;
+  border-right-color: rgb(230 230 230 / var(--tw-border-opacity));
+}
+
+.bg-dark-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 43 66 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.font-monsterrat {
+  font-family: Monsterrat, sans-serif;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-grey {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+*:focus {
+  outline: none;
+}
