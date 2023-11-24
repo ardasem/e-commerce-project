@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import CategoryCard from "./CategoryCard";
-import ProductCard from "./ProductCard";
 import CarouselSlide from "./CarouselSlide";
 
 import {

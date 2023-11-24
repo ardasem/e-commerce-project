@@ -5,6 +5,8 @@ module.exports = {
     extend:{
       backgroundImage: {
         'hero-pattern-one': "url('./assets/hero1.jpg')",
+        'list-pattern-one': "url('./assets/productlist1.png')",
+        'product-pattern-one': "url('./assets/productCard.png')",
       },
       screens: {
         sm: '480px',
