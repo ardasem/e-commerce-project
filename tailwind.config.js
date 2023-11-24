@@ -4,9 +4,10 @@ module.exports = {
   theme: {
     extend:{
       backgroundImage: {
-        'hero-pattern-one': "url('./assets/hero1.jpg')",
-        'list-pattern-one': "url('./assets/productlist1.png')",
-        'product-pattern-one': "url('./assets/productCard.png')",
+        'hero-pattern-one': "url('/public/assets/hero1.jpg')",
+        'list-pattern-one': "url('/public/assets/productlist1.png')",
+        'product-pattern-one': "url('/public/assets/productCard.png')",
+       
       },
       screens: {
         sm: '480px',
