@@ -10,7 +10,7 @@ function ContentCard(props) {
   const { heading, content, date, comments } = props;
 
   return (
-    <div className="">
+    <div className="shadow-md">
       <img src="/assets/unsplash.png" alt="" />
 
       <div className="flex flex-col p-4 justify-start gap-4">
@@ -20,25 +20,25 @@ function ContentCard(props) {
           <p>Google</p>
         </section>
 
-        <div className="flex flex-col max-w-[300px]">
+        <div className="flex flex-col max-w-[300px] gap-4">
           <p className="font-monsterrat font-[42px] font-bold">{heading}</p>
           <p>{content}</p>
 
           <section className="analytics flex flex-row justify-between">
             <div className="flex flex-row items-center gap-2">
-              <FontAwesomeIcon icon={faClock} />
+              <FontAwesomeIcon icon={faClock} color="#23A6F0" />
               <p>{date}</p>
             </div>
 
             <div className="flex flex-row items-center gap-2">
-              <FontAwesomeIcon icon={faArrowTrendUp} />
+              <FontAwesomeIcon icon={faArrowTrendUp} color="secondary-color-1" />
               <p>{comments} Comments</p>
             </div>
           </section>
 
           <div className="flex flex-row items-center gap-2">
             <p>Learn More</p>
-            <FontAwesomeIcon icon={faArrowRight} color="blue" />
+            <FontAwesomeIcon icon={faArrowRight} color="#23A6F0" />
           </div>
         </div>
       </div>
