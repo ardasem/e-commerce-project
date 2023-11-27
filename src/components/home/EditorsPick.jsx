@@ -3,10 +3,12 @@ import React from "react";
 function EditorsPick() {
   return (
     <div className="flex flex-col justify-center items-center p-10 bg-[#FAFAFA]">
-      <div className="text-center">
-        <p className="font-monsterrat font-[42px] font-bold">EDITOR’S PICK</p>
-        <p>Problems trying to resolve the conflict between </p>
-      </div>
+    
+        <p className="text-monsterrat text-[24px] font-bold">EDITOR'S PICK</p>
+        <p className="text-monsterrat text-[14px] font-bold text-md-grey">
+          Problems trying to resolve the conflict between the two major realms
+          of Classical physics: Newtonian mechanics
+        </p>
       <div className="flex flex-row justify-center gap-3 m-5">
 
         <div className="relative">

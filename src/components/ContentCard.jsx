@@ -22,7 +22,7 @@ function ContentCard(props) {
 
         <div className="flex flex-col max-w-[300px] gap-4">
           <p className="font-monsterrat font-[42px] font-bold">{heading}</p>
-          <p>{content}</p>
+          <p className="font-monsterrat font-[36px] ">{content}</p>
 
           <section className="analytics flex flex-row justify-between">
             <div className="flex flex-row items-center gap-2">
@@ -36,7 +36,7 @@ function ContentCard(props) {
             </div>
           </section>
 
-          <div className="flex flex-row items-center gap-2">
+          <div className="flex flex-row items-center gap-2 justify-start items-center">
             <p>Learn More</p>
             <FontAwesomeIcon icon={faArrowRight} color="#23A6F0" />
           </div>
