@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from '../pages/Home'
-import ProductList from '../pages/Products'
+import ProductList from '../pages/ProductList'
 import {Switch,Route} from 'react-router-dom'
 
 function PageContent() {

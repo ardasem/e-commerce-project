@@ -1,7 +1,7 @@
 import React from "react";
-import ProductCard from "../components/ProductCard";
+import ProductCard from "../components/ProductCardold";
 
-function ProductList() {
+function Products() {
   return (
     <div className="flex flex-row mt-3">
       <div className="bg-list-pattern-one bg-auto bg-no-repeat flex-1"></div>
@@ -44,4 +44,4 @@ function ProductList() {
   );
 }
 
-export default ProductList;
+export default Products;
