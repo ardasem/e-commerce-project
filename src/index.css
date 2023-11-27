@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,4 +5,16 @@
 
 *:focus {
     outline: none;
+}
+
+
+@layer components{
+    .carousel-text{
+        @apply font-monsterrat font-bold text-white;
+    }
+
+    .btn-primary {
+        @apply flex justify-center bg-green  rounded text-white font-monsterrat font-bold text-white font-monsterrat p-5;
+    }
+    
 }

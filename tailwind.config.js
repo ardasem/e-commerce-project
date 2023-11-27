@@ -26,7 +26,6 @@ module.exports = {
       },
       fontFamily: {
         monsterrat: ['Monsterrat', 'sans-serif'],
-        serif: ['Monsterrat', 'serif'],
       },
       extend: {
         spacing: {
