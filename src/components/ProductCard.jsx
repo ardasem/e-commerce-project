@@ -3,7 +3,7 @@ import React from "react";
 function ProductCard(props) {
   const { imgUrl, category, name, oldPrice, price } = props;
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center">
       <img src={imgUrl} alt="" />
       <div className="flex flex-col justify-center items-center gap-3 m-4">
         <p className="text-monsterrat text-[16px] font-bold text-[#252B42]">{category}</p>
