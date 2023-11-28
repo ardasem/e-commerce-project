@@ -10,7 +10,7 @@ function CarouselSlide(props) {
         <p className="carousel-text text-[24px] ">SUMMER 2020</p>
         <p className="carousel-text text-[58px] ">NEW COLLECTION</p>
         <p className="carousel-text text-[24px] ">We know how large objects will act, but things on a small scale.</p>
-        <div className="btn-primary text-[24px] w-44" >
+        <div className="btn-primary text-[24px] w-56" >
           <Link to="/shop">SHOP NOW</Link>
         </div>
         </div>

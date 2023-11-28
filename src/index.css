@@ -17,11 +17,11 @@
     }
 
     .btn-primary {
-        @apply flex justify-center bg-green  rounded text-white font-monsterrat font-bold font-monsterrat px-10 py-3;
+        @apply flex justify-center items-center bg-green  rounded text-white font-monsterrat font-bold font-monsterrat px-10 py-3;
     }
 
     .btn-secondary{
-        @apply flex justify-center bg-white border-2 border-green rounded text-green font-monsterrat font-bold px-10 py-3;
+        @apply flex justify-center items-center bg-white border-[1px] border-green rounded text-green font-monsterrat font-bold px-10 py-3;
     }
     
 }

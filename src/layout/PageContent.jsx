@@ -1,15 +1,21 @@
-import React from 'react'
-import Home from '../pages/Home'
-import ProductList from '../pages/ProductList'
-import {Switch,Route} from 'react-router-dom'
+import React from "react";
+import Home from "../pages/Home";
+import ProductList from "../pages/ProductList";
+import { Switch, Route } from "react-router-dom";
 
 function PageContent() {
   return (
-    <Switch>
-      <Route exact path='/'><Home /></Route>
-      <Route exact path='/shop'><ProductList /></Route>
-    </Switch>
-  )
+    <main>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/shop">
+          <ProductList />
+        </Route>
+      </Switch>
+    </main>
+  );
 }
 
-export default PageContent
+export default PageContent;

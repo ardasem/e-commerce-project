@@ -11,7 +11,7 @@ function Header() {
         <DarkBar />
    
       <div className="flex flex-row items-center p-4 gap-[250px] ">
-        <Link className="text-slate font-bold text-[24px] flex-none" to="/">
+        <Link className="text-slate font-bold text-[28px] flex-none" to="/">
           BrandName
         </Link>
 
