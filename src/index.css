@@ -23,5 +23,7 @@
     .btn-secondary{
         @apply flex justify-center items-center bg-white border-[1px] border-green rounded text-green font-monsterrat font-bold px-10 py-3;
     }
-    
+    .btn-third{
+        @apply flex justify-center items-center bg-light-blue  text-white font-monsterrat font-bold font-monsterrat px-10 py-3;
+    }
 }
