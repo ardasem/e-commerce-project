@@ -5,31 +5,45 @@ import {
   faTwitter,
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom/cjs/react-router-dom";
 
 function Footer() {
   return (
-    <footer className="flex flex-col">
-      <section className="flex flex-row justify-between px-56 py-10  bg-transparent-grey">
-        <div>
-          <p className="text-slate font-monsterrat font-bold text-[24px]">BrandName</p>
-        </div>
+    <footer className="flex flex-col ">
+      <div className=" px-[195px] bg-transparent-grey">
+        <div className="flex flex-row items-center p-[40px] gap-[577.5px]">
+          <div className="py-[13px] pr-[49px]">
+            <Link
+              className="text-dark-blue font-bold text-[24px] font-['Montserrat'] leading-[32px]"
+              to="/"
+            >
+              Bandage
+            </Link>
+          </div>
 
-        <div className=" flex flex-row gap-3">
-          <a href="https://facebook.com" target="_blank" ><FontAwesomeIcon icon={faFacebook} size="2x" color="#23A6F0" /></a>
-          <a href="https://instagram.com" target="_blank"> <FontAwesomeIcon icon={faInstagram} size="2x" color="#23A6F0" /></a>
-          <a href="https://twitter.com" target="_blank"> <FontAwesomeIcon icon={faTwitter} size="2x"color="#23A6F0" /></a>      
-         
+          <div className=" flex flex-row justify-center gap-[20px]">
+            <a href="https://facebook.com" target="_blank">
+              <FontAwesomeIcon icon={faFacebook} size="xl" color="#23A6F0" />
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              {" "}
+              <FontAwesomeIcon icon={faInstagram} size="xl" color="#23A6F0" />
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              {" "}
+              <FontAwesomeIcon icon={faTwitter} size="xl" color="#23A6F0" />
+            </a>
+          </div>
         </div>
-      </section>
+      </div>
 
-      <section className="flex flex-row items-center justify-between px-56 py-10 font-monstrrat bold font-bold text-light-grey">
+      <section className="flex flex-row items-center justify-between px-56 py-10 font-['Montserrat'] font-bold text-light-grey">
         <div className="flex flex-col gap-3">
           <p className="text-[#252B42] mb-2">Company Info</p>
           <p>About Us</p>
           <p>Carrier</p>
           <p>We are hiring</p>
           <p>Blog</p>
-         
         </div>
         <div className="flex flex-col gap-3">
           <p className="text-[#252B42] mb-2">Legal</p>
@@ -56,24 +70,18 @@ function Footer() {
         <div className="flex flex-col justify-start items-start gap-3">
           <p className="text-[#252B42] mb-2">Get In Touch</p>
           <form action="submit" className="flex flex-row">
-            <input className="border rounded-l" type="text"  />
-            <button className="btn-third rounded-r">Submit</button>            
+            <input className="border rounded-l" type="text" />
+            <button className="btn-third rounded-r">Submit</button>
           </form>
           <p>Lorem Ipsum</p>
-       
-          
-         
-            
-
-        </div>        
+        </div>
       </section>
-
 
       <section className="bg-transparent-grey px-56 py-6">
-        <p className="font-monsterrat text-grey font-bold text-[14px]">Made With Love By Finland All Right Reserved.</p>
+        <p className="font-['Montserrat'] text-grey font-bold text-[14px]">
+          Made With Love By Finland All Right Reserved.
+        </p>
       </section>
-
-
     </footer>
   );
 }

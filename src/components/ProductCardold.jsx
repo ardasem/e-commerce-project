@@ -30,16 +30,16 @@ function ProductCard(props) {
 
       <div className="flex flex-col gap-3 m-2">
         <div className="flex flex-row justify-between ">
-          <p className="text-light-blue font-monsterrat text-[20px] font-bold">
+          <p className="text-light-blue font-['Montserrat'] text-[20px] font-bold">
             {props.headingBlue}
           </p>
           <img className="h-full" src="/assets/Frame 4.png" alt="" />
         </div>
 
-        <p className="font-monsterrat text-[22px] font-bold text-grey">
+        <p className="font-['Montserrat'] text-[22px] font-bold text-grey">
           {props.headingGrey}
         </p>
-        <p className="font-monsterrat text-[14px] font-bold w-1/2">
+        <p className="font-['Montserrat'] text-[14px] font-bold w-1/2">
           {props.description}
         </p>
         <div className="flex flex-row gap-2">

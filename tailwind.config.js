@@ -26,7 +26,7 @@ module.exports = {
         'green': '#2DC071',
       },
       fontFamily: {
-        monsterrat: ['Monsterrat', 'sans-serif'],
+        montserrat: ['Monsterrat', 'sans-serif'],
       },
       extend: {
         spacing: {

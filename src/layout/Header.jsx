@@ -11,12 +11,12 @@ function Header() {
 
       <div className="flex flex-row items-center pb-[8px] pl-[38px] pr-[17px]">
         <div className="py-[13px] pr-[49px]">
-          <Link className="text-dark-blue font-bold text-[24px] font-monsterrat leading-[32px] flex-none" to="/">
+          <Link className="text-dark-blue font-bold text-[24px] font-['Montserrat'] leading-[32px] flex-none" to="/">
             Bandage
           </Link>
         </div>
 
-        <div className="flex flex-row justify-between items-center gap-[471px]">
+        <div className="flex flex-row items-center gap-[371px]">
           <Navbar />
           <LoginBar />
         </div>

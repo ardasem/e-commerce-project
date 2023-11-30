@@ -10,7 +10,7 @@ function TeamCard({ imgUrl,username, profession, fbLink, igLink, twLink }) {
   return (
     <div className="flex flex-col gap-3 text-center">
       <img src={imgUrl} alt="" />
-      <p className="font-monsterrat font-bold text-[22px]">{username}</p>
+      <p className="font-['Montserrat'] font-bold text-[22px]">{username}</p>
       <p>{profession}</p>
       <div className="flex flex-row justify-center items-center gap-3">
         <a href={fbLink} target="_blank" rel="noreferrer">

@@ -7,12 +7,12 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 function Team() {
   return (
     <div className="flex flex-col justify-center items-center">
-      <div className="flex flex-col text-center font-monsterrat">
+      <div className="flex flex-col text-center font-['Montserrat']">
         <p className="text-[20px]">WHAT WE DO</p>
         <p className="text-[58px] font-bold">Innovation tailored for you</p>
       </div>
 
-      <div className="flex flex-row justify-center items-center gap-2 font-monsterrat font-bold p-10">
+      <div className="flex flex-row justify-center items-center gap-2 font-['Montserrat'] font-bold p-10">
         <p>Home</p> 
         <FontAwesomeIcon icon={faChevronRight} color="#BDBDBD"/>
         <p color="text-transparent-grey">Team</p>
@@ -117,7 +117,7 @@ function Team() {
         </div>
 
         <div className="pt-24">
-          <div className="flex flex-col justify-center gap-5 font-monsterrat font-bold ">
+          <div className="flex flex-col justify-center gap-5 font-['Montserrat'] font-bold ">
             <p className="text-[58px]">Start your 14 days free trial</p>
             <p className="text-[20px] text-light-grey">
               Met minim Mollie non desert Alamo est sit cliquey dolor <br />

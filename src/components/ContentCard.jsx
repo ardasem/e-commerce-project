@@ -21,8 +21,8 @@ function ContentCard(props) {
         </section>
 
         <div className="flex flex-col max-w-[300px] gap-4">
-          <p className="font-monsterrat font-[42px] font-bold">{heading}</p>
-          <p className="font-monsterrat font-[36px] ">{content}</p>
+          <p className="font-['Montserrat'] font-[42px] font-bold">{heading}</p>
+          <p className="font-['Montserrat'] font-[36px] ">{content}</p>
 
           <section className="analytics flex flex-row justify-between">
             <div className="flex flex-row items-center gap-2">

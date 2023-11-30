@@ -4,8 +4,8 @@ function EditorsPick() {
   return (
     <div className="flex flex-col justify-center items-center p-10 bg-[#FAFAFA]">
       <div className="flex flex-col items-center justify-center gap-3">
-        <p className="text-monsterrat text-[30px] font-bold">EDITOR'S PICK</p>
-        <p className="text-monsterrat text-[20px] font-bold text-md-grey text-center">
+        <p className="font-['Montserrat'] text-[30px] font-bold">EDITOR'S PICK</p>
+        <p className="font-['Montserrat'] text-[20px] font-bold text-md-grey text-center">
           Problems trying to resolve the conflict between         </p>
       </div>
 
@@ -27,14 +27,14 @@ function EditorsPick() {
         <div className="flex flex-col gap-3 ">
           <div className="relative">
             <img className="w-full" src="/assets/accesories.png" alt="" />
-            <p className="absolute bottom-[1px] left-[80px] transform -translate-x-1/2 -translate-y-1/2 text-black text-lg font-bold font-monsterrat bg-white  px-[10px] py-2">
+            <p className="absolute bottom-[1px] left-[80px] transform -translate-x-1/2 -translate-y-1/2 text-black text-lg font-bold font-['Montserrat'] bg-white  px-[10px] py-2">
               ACCESORIES
             </p>
           </div>
 
           <div className="relative">
             <img className="w-full" src="/assets/kids.png" alt="" />
-            <p className="absolute bottom-[1px] left-[70px] transform -translate-x-1/2 -translate-y-1/2 text-black text-lg font-bold font-monsterrat bg-white  px-[30px] py-2">
+            <p className="absolute bottom-[1px] left-[70px] transform -translate-x-1/2 -translate-y-1/2 text-black text-lg font-bold font-['Montserrat'] bg-white  px-[30px] py-2">
               KIDS
             </p>
           </div>

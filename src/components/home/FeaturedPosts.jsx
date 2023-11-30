@@ -6,9 +6,9 @@ function FeaturedPosts() {
     <div className="flex flex-col justify-center items-center p-20 gap-5 ">
       
       <div className="flex flex-col text-center gap-3">
-        <p className="text-monsterrat text-[20px] font-bold text-light-blue">Practice Advice</p>
-        <p className="text-monsterrat text-[30px] font-bold">Featured Posts</p>
-        <p className="text-monsterrat text-[20px] font-bold text-md-grey">
+        <p className="font-['Montserrat'] text-[20px] font-bold text-light-blue">Practice Advice</p>
+        <p className="font-['Montserrat'] text-[30px] font-bold">Featured Posts</p>
+        <p className="font-['Montserrat'] text-[20px] font-bold text-md-grey">
           Problems trying to resolve the conflict between <br /> the two major realms of Classical physics: Newtonian mechanics
         </p>
       </div>

@@ -14,21 +14,21 @@ function DarkBar() {
       <div className="flex flex-row  gap-[10px]">
         <div className="flex flex-row gap-[5px] leading-[24px] items-center m-[10px]">
           <FontAwesomeIcon icon={faPhone} color="white" />
-          <p className="font-monsterrat font-bold  text-[14px]">
+          <p className="font-['Montserrat'] font-bold  text-[14px]">
             (225) 555-0118
           </p>
         </div>
 
         <div className="flex flex-row gap-[5px] leading-[24px] items-center m-[10px]">
           <FontAwesomeIcon icon={faEnvelope} color="white" />
-          <p className="font-monsterrat font-bold  text-[14px]">
+          <p className="font-['Montserrat'] font-bold  text-[14px]">
             arda.sem@gmail.com
           </p>
         </div>
       </div>
 
       <div className="flex flex-row gap-[5px] leading-[24px] items-center m-[10px]">
-      <p className="font-monsterrat font-bold  text-[14px]">
+      <p className="font-['Montserrat'] font-bold  text-[14px]">
         Follow Us and get a chance to win 80% off
       </p>
       </div>
@@ -36,7 +36,7 @@ function DarkBar() {
      
 
       <div className="flex flex-row gap-[5.5px] leading-[24px] items-center m-[10px]">
-        <p className="font-monsterrat font-bold text-[14px]">Follow Us:</p>
+        <p className="font-['Montserrat'] font-bold text-[14px]">Follow Us:</p>
 
         <a className="p-[5px]" href="https://instagram.com" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faInstagram} color="white" />

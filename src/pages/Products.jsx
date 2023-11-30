@@ -7,13 +7,13 @@ function Products() {
       <div className="bg-list-pattern-one bg-auto bg-no-repeat flex-1"></div>
       <div className="flex flex-col flex-1 gap-5">
         <div className="flex flex-col justify-center items-center gap-3">
-          <p className="font-monsterrat font-bold text-grey text-[20px]">
+          <p className="font-['Montserrat'] font-bold text-grey text-[20px]">
             Featured Products
           </p>
-          <p className="font-monsterrat font-bold text-grey text-[40px]">
+          <p className="font-['Montserrat'] font-bold text-grey text-[40px]">
             Featured Products
           </p>
-          <p className="font-monsterrat font-bold text-grey text-[14px] w-1/2 text-center">
+          <p className="font-['Montserrat'] font-bold text-grey text-[14px] w-1/2 text-center">
             Problems trying to resolve the conflict between the two major realms
             of Classical physics: Newtonian mechanics{" "}
           </p>

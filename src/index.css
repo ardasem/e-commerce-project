@@ -13,17 +13,17 @@
 
 @layer components{
     .carousel-text{
-        @apply font-monsterrat font-bold text-white;
+        @apply font-['Montserrat'] font-bold text-white;
     }
 
     .btn-primary {
-        @apply flex justify-center items-center bg-green  rounded text-white font-monsterrat font-bold font-monsterrat px-10 py-3;
+        @apply flex justify-center items-center bg-green  rounded text-white font-['Montserrat'] font-bold font-['Montserrat'] px-10 py-3;
     }
 
     .btn-secondary{
-        @apply flex justify-center items-center bg-white border-[1px] border-green rounded text-green font-monsterrat font-bold px-10 py-3;
+        @apply flex justify-center items-center bg-white border-[1px] border-green rounded text-green font-['Montserrat'] font-bold px-10 py-3;
     }
     .btn-third{
-        @apply flex justify-center items-center bg-light-blue  text-white font-monsterrat font-bold font-monsterrat px-10 py-3;
+        @apply flex justify-center items-center bg-light-blue  text-white font-['Montserrat'] font-bold font-['Montserrat'] px-10 py-3;
     }
 }
