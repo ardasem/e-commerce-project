@@ -2,6 +2,7 @@ import React from "react";
 import Home from "../pages/Home";
 import ProductList from "../pages/ProductList";
 import { Switch, Route } from "react-router-dom";
+import About from "../pages/About";
 
 function PageContent() {
   return (
@@ -12,6 +13,9 @@ function PageContent() {
         </Route>
         <Route exact path="/shop">
           <ProductList />
+        </Route>
+        <Route exact path="/about">
+          <About />
         </Route>
       </Switch>
     </main>
