@@ -17,13 +17,13 @@
     }
 
     .btn-primary {
-        @apply flex justify-center items-center bg-green  rounded text-white font-['Montserrat'] font-bold font-['Montserrat'] px-10 py-3;
+        @apply flex justify-center items-center bg-green  rounded text-white font-['Montserrat'] font-bold py-[15px] px-[40px] ;
     }
 
     .btn-secondary{
-        @apply flex justify-center items-center bg-white border-[1px] border-green rounded text-green font-['Montserrat'] font-bold px-10 py-3;
+        @apply flex justify-center items-center bg-white border-[1px] border-green rounded text-green py-[15px] px-[40px]  ;
     }
     .btn-third{
-        @apply flex justify-center items-center bg-light-blue  text-white font-['Montserrat'] font-bold font-['Montserrat'] px-10 py-3;
+        @apply flex justify-center items-center bg-light-blue border-[1px] text-white  border-mdl-grey font-bold font-['Montserrat'] py-[15px] px-[22.5px] ;
     }
 }

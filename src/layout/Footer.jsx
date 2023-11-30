@@ -11,7 +11,7 @@ function Footer() {
   return (
     <footer className="flex flex-col ">
       <div className=" px-[195px] bg-transparent-grey">
-        <div className="flex flex-row items-center p-[40px] gap-[577.5px]">
+        <div className="flex flex-row items-center py-[40px] gap-[577.5px]">
           <div className="py-[13px] pr-[49px]">
             <Link
               className="text-dark-blue font-bold text-[24px] font-['Montserrat'] leading-[32px]"
@@ -37,51 +37,66 @@ function Footer() {
         </div>
       </div>
 
-      <section className="flex flex-row items-center justify-between px-56 py-10 font-['Montserrat'] font-bold text-light-grey">
-        <div className="flex flex-col gap-3">
-          <p className="text-[#252B42] mb-2">Company Info</p>
-          <p>About Us</p>
-          <p>Carrier</p>
-          <p>We are hiring</p>
-          <p>Blog</p>
+      <div className="flex flex-row items-start font-['Montserrat'] font-[700] text-[14px] gap-[30px] px-[195px] py-[50px]">
+        <div className="flex flex-col gap-[20px] w-[148px] leading-normal tracking-tight">
+          <p className="text-[#252B42]">Company Info</p>
+
+          <div className="flex flex-col text-md-grey gap-[10px]">
+            <p>About Us</p>
+            <p>Carrier</p>
+            <p>We are hiring</p>
+            <p>Blog</p>
+          </div>
         </div>
-        <div className="flex flex-col gap-3">
-          <p className="text-[#252B42] mb-2">Legal</p>
-          <p>About Us</p>
-          <p>Carrier</p>
-          <p>We are hiring</p>
-          <p>Blog</p>
+        <div className="flex flex-col gap-[20px] w-[148px] leading-normal tracking-tight">
+          <p className="text-[#252B42]">Legal</p>
+
+          <div className="flex flex-col text-md-grey gap-[10px]">
+            <p>About Us</p>
+            <p>Carrier</p>
+            <p>We are hiring</p>
+            <p>Blog</p>
+          </div>
         </div>
-        <div className="flex flex-col gap-3">
-          <p className="text-[#252B42] mb-2">Features</p>
-          <p>Business Marketing</p>
-          <p>User Analytic</p>
-          <p>Live Chat</p>
-          <p>Unlimited Support</p>
+        <div className="flex flex-col gap-[20px] w-[148px] leading-normal tracking-tight">
+          <p className="text-[#252B42]">Features</p>
+
+          <div className="flex flex-col text-md-grey gap-[10px]">
+            <p>Business Marketing</p>
+            <p>User Analytic</p>
+            <p>Live Chat</p>
+            <p>Unlimited Support</p>
+          </div>
         </div>
-        <div className="flex flex-col gap-3">
-          <p className="text-[#252B42] mb-2">Resources</p>
-          <p>IOS & Android</p>
-          <p>Watch a Demo</p>
-          <p>Customers</p>
-          <p>Blog</p>
+        <div className="flex flex-col gap-[20px] w-[148px] leading-normal tracking-tight">
+          <p className="text-[#252B42]">Resources</p>
+
+          <div className="flex flex-col text-md-grey gap-[10px]">
+            <p>IOS & Android</p>
+            <p>Watch a Demo</p>
+            <p>Customers</p>
+            <p>Blog</p>
+          </div>
         </div>
 
-        <div className="flex flex-col justify-start items-start gap-3">
-          <p className="text-[#252B42] mb-2">Get In Touch</p>
+        <div className="flex flex-col gap-[20px] w-[148px] leading-normal tracking-tight font-['Montserrat']">
+          <p className="text-[#252B42]">Get In Touch</p>
+          <div>
           <form action="submit" className="flex flex-row">
-            <input className="border rounded-l" type="text" />
-            <button className="btn-third rounded-r">Submit</button>
+            <input className="border-r-[0px] border-l-[1px] border-y-[1px]  border-mdl-grey rounded-l py-[15px] text-[14px] pl-[20px] font-[400] bg-[#F9F9F9]" type="text" placeholder="Your Email"/>
+            <button className="btn-third rounded-r font-normal">Subscribe</button>
           </form>
-          <p>Lorem Ipsum</p>
+          <p className="text-[12px] font-[500] text-md-grey ">Lorem Ipsum Dolor Sit</p>
+          </div>
+          
         </div>
-      </section>
+      </div>
 
-      <section className="bg-transparent-grey px-56 py-6">
-        <p className="font-['Montserrat'] text-grey font-bold text-[14px]">
+      <div className="bg-transparent-grey px-[195px]">
+        <p className="font-['Montserrat'] text-md-grey font-[700] text-[14px] leading-[24px] py-[25px]">
           Made With Love By Finland All Right Reserved.
         </p>
-      </section>
+      </div>
     </footer>
   );
 }
