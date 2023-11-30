@@ -6,21 +6,20 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="flex flex-col">
-    
-        <DarkBar />
-   
-      <div className="flex flex-row items-center p-4 gap-[250px] ">
-        <Link className="text-slate font-bold text-[28px] flex-none" to="/">
-          BrandName
-        </Link>
+    <header className="flex flex-col gap-[12px]">
+      <DarkBar />
 
-        <div className="flex flex-row justify-between items-center flex-1">
+      <div className="flex flex-row items-center pb-[8px] pl-[38px] pr-[17px]">
+        <div className="py-[13px] pr-[49px]">
+          <Link className="text-dark-blue font-bold text-[24px] font-monsterrat leading-[32px] flex-none" to="/">
+            Bandage
+          </Link>
+        </div>
+
+        <div className="flex flex-row justify-between items-center gap-[471px]">
           <Navbar />
           <LoginBar />
         </div>
-
-        
       </div>
     </header>
   );
