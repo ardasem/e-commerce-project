@@ -1,5 +1,6 @@
 import React from "react";
 import TeamCard from "../components/TeamCard";
+import { Link } from "react-router-dom/";
 
 function About() {
   return (
@@ -60,7 +61,7 @@ function About() {
       <img className="m-auto" src="/assets/Videocard.png" alt="" />
 
       <div className="flex flex-col justify-around font-monsterrat text-center py-20 gap-10">
-        <p className="font-bold text-[32px]">Meet Our Team</p>
+        <p className="font-bold text-[32px]"><Link to='/team'>Meet Our Team</Link></p>
         <p className="text-light-grey">
           Problems trying to resolve the conflict between the two major realms
           of Classical physics: Newtonian mechanics{" "}
@@ -112,7 +113,7 @@ function About() {
             
           </div>
 
-          
+
         </div>
       </div>
     </div>
