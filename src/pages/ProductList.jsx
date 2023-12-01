@@ -48,8 +48,8 @@ function ProductList({numberofpages}) {
 
       <FilterComponent res={12} />
 
-      <div className="flex flex-col justify-center items-center">
-        <div className="flex flex-row gap-3 justify-center items-center">
+      <div className="flex flex-col px-[195px] gap-[48px]">
+        <div className="flex flex-row gap-[30px] items-center">
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
             category={"English"}
