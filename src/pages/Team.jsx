@@ -130,7 +130,7 @@ function Team() {
               Try it free now
             </button>
 
-            <div className=" flex flex-row gap-3 m-auto">
+            <div className=" flex flex-row gap-[34px] m-auto">
               <a href="https://facebook.com" target="_blank">
                 <FontAwesomeIcon icon={faFacebook} size="2x" color="#23A6F0" />
               </a>
