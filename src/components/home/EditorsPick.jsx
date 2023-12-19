@@ -4,8 +4,8 @@ function EditorsPick() {
   return (
     <div className="flex flex-col justify-center items-center p-10 bg-[#FAFAFA]">
       <div className="flex flex-col items-center justify-center gap-3">
-        <p className="font-['Montserrat'] text-[30px] font-bold">EDITOR'S PICK</p>
-        <p className="font-['Montserrat'] text-[20px] font-bold text-md-grey text-center">
+        <p className="font-['Montserrat'] text-[24px] font-[700] text-dark-blue">EDITOR'S PICK</p>
+        <p className="font-['Montserrat'] text-[14px] font-[400] text-md-grey text-center">
           Problems trying to resolve the conflict between         </p>
       </div>
 

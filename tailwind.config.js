@@ -23,6 +23,7 @@ module.exports = {
         'light-grey': '#BDBDBD',
         'mdl-grey' : '#E6E6E6',
         'md-grey': '#737373',
+        'font-grey' : '#858585',
         'light-green': '#47AD97',
         'green': '#2DC071',
       },
