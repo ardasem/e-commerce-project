@@ -36,10 +36,10 @@ function Team() {
         </div>
       </div>
 
-      <div className="flex flex-col text-center gap-28 p-20">
-        <p className="font-bold text-[32px]">Meet Our Team</p>
+      <div className="flex flex-col text-center gap-[112px]">
+        <p className="font-[700] text-[40px] pt-[112px] text-dark-blue">Meet Our Team</p>
 
-        <div className="flex flex-row justify-center gap-14">
+        <div className="flex flex-row justify-center gap-[30px]">
           <TeamCard
             username={"Username"}
             profession={"Profession"}
@@ -65,34 +65,7 @@ function Team() {
             imgUrl={"/assets/team-1-user-1.jpg"}
           />
         </div>
-        <div className="flex flex-row justify-center gap-14">
-          <TeamCard
-            username={"Username"}
-            profession={"Profession"}
-            fbLink={"https://facebook.com"}
-            igLink={"https://instagram.com"}
-            twLink={"https://twitter.com"}
-            imgUrl={"/assets/team-1-user-1.jpg"}
-          />
-          <TeamCard
-            username={"Username"}
-            profession={"Profession"}
-            fbLink={"https://facebook.com"}
-            igLink={"https://instagram.com"}
-            twLink={"https://twitter.com"}
-            imgUrl={"/assets/team-1-user-1.jpg"}
-          />
-          <TeamCard
-            username={"Username"}
-            profession={"Profession"}
-            fbLink={"https://facebook.com"}
-            igLink={"https://instagram.com"}
-            twLink={"https://twitter.com"}
-            imgUrl={"/assets/team-1-user-1.jpg"}
-          />
-        </div>
-
-        <div className="flex flex-row justify-center gap-14">
+        <div className="flex flex-row justify-center gap-[30px]">
           <TeamCard
             username={"Username"}
             profession={"Profession"}
@@ -119,10 +92,37 @@ function Team() {
           />
         </div>
 
-        <div className="pt-24">
-          <div className="flex flex-col justify-center gap-5 font-['Montserrat'] font-bold ">
-            <p className="text-[58px]">Start your 14 days free trial</p>
-            <p className="text-[20px] text-light-grey">
+        <div className="flex flex-row justify-center gap-[30px]">
+          <TeamCard
+            username={"Username"}
+            profession={"Profession"}
+            fbLink={"https://facebook.com"}
+            igLink={"https://instagram.com"}
+            twLink={"https://twitter.com"}
+            imgUrl={"/assets/team-1-user-1.jpg"}
+          />
+          <TeamCard
+            username={"Username"}
+            profession={"Profession"}
+            fbLink={"https://facebook.com"}
+            igLink={"https://instagram.com"}
+            twLink={"https://twitter.com"}
+            imgUrl={"/assets/team-1-user-1.jpg"}
+          />
+          <TeamCard
+            username={"Username"}
+            profession={"Profession"}
+            fbLink={"https://facebook.com"}
+            igLink={"https://instagram.com"}
+            twLink={"https://twitter.com"}
+            imgUrl={"/assets/team-1-user-1.jpg"}
+          />
+        </div>
+
+        <div className="py-[80px]">
+          <div className="flex flex-col justify-center gap-[30px] font-['Montserrat'] font-bold ">
+            <p className="text-[40px] text-dark-blue">Start your 14 days free trial</p>
+            <p className="text-[14px] font-[400] text-md-grey">
               Met minim Mollie non desert Alamo est sit cliquey dolor <br />
               do met sent. RELIT official consequent.
             </p>
