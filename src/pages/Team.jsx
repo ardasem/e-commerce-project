@@ -1,5 +1,6 @@
 import React from "react";
-import TeamCard from "../components/TeamCard";
+import TeamHero from "../components/team/TeamHero";
+import TeamCardsContainer from "../components/team/TeamCardsContainer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook,faInstagram,faTwitter,faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
@@ -21,112 +22,19 @@ function Team() {
       </div>
         </div>
      
+        <TeamHero/>
+        <TeamCardsContainer />
+      
 
-      <div className="flex flex-row gap-[10px]">
-        <div className="flex-1">
-        <img  src="/assets/unsplash11.png" alt="" />
-        </div>
-       
-
-        <div className="flex-1 grid grid-cols-2 items-stretch gap-[10px]">
-            <img  src="/assets/unsplash1.png" alt="" />
-            <img  src="/assets/unsplash2.png" alt="" />
-            <img  src="/assets/unsplash3.png" alt="" />
-            <img  src="/assets/unsplash4.png" alt="" />
-        </div>
-      </div>
-
-      <div className="flex flex-col text-center gap-[112px]">
-        <p className="font-[700] text-[40px] pt-[112px] text-dark-blue">Meet Our Team</p>
-
-        <div className="flex flex-row justify-center gap-[30px]">
-          <TeamCard
-            username={"Username"}
-            profession={"Profession"}
-            fbLink={"https://facebook.com"}
-            igLink={"https://instagram.com"}
-            twLink={"https://twitter.com"}
-            imgUrl={"/assets/team-1-user-1.jpg"}
-          />
-          <TeamCard
-            username={"Username"}
-            profession={"Profession"}
-            fbLink={"https://facebook.com"}
-            igLink={"https://instagram.com"}
-            twLink={"https://twitter.com"}
-            imgUrl={"/assets/team-1-user-1.jpg"}
-          />
-          <TeamCard
-            username={"Username"}
-            profession={"Profession"}
-            fbLink={"https://facebook.com"}
-            igLink={"https://instagram.com"}
-            twLink={"https://twitter.com"}
-            imgUrl={"/assets/team-1-user-1.jpg"}
-          />
-        </div>
-        <div className="flex flex-row justify-center gap-[30px]">
-          <TeamCard
-            username={"Username"}
-            profession={"Profession"}
-            fbLink={"https://facebook.com"}
-            igLink={"https://instagram.com"}
-            twLink={"https://twitter.com"}
-            imgUrl={"/assets/team-1-user-1.jpg"}
-          />
-          <TeamCard
-            username={"Username"}
-            profession={"Profession"}
-            fbLink={"https://facebook.com"}
-            igLink={"https://instagram.com"}
-            twLink={"https://twitter.com"}
-            imgUrl={"/assets/team-1-user-1.jpg"}
-          />
-          <TeamCard
-            username={"Username"}
-            profession={"Profession"}
-            fbLink={"https://facebook.com"}
-            igLink={"https://instagram.com"}
-            twLink={"https://twitter.com"}
-            imgUrl={"/assets/team-1-user-1.jpg"}
-          />
-        </div>
-
-        <div className="flex flex-row justify-center gap-[30px]">
-          <TeamCard
-            username={"Username"}
-            profession={"Profession"}
-            fbLink={"https://facebook.com"}
-            igLink={"https://instagram.com"}
-            twLink={"https://twitter.com"}
-            imgUrl={"/assets/team-1-user-1.jpg"}
-          />
-          <TeamCard
-            username={"Username"}
-            profession={"Profession"}
-            fbLink={"https://facebook.com"}
-            igLink={"https://instagram.com"}
-            twLink={"https://twitter.com"}
-            imgUrl={"/assets/team-1-user-1.jpg"}
-          />
-          <TeamCard
-            username={"Username"}
-            profession={"Profession"}
-            fbLink={"https://facebook.com"}
-            igLink={"https://instagram.com"}
-            twLink={"https://twitter.com"}
-            imgUrl={"/assets/team-1-user-1.jpg"}
-          />
-        </div>
 
         <div className="py-[80px]">
-          <div className="flex flex-col justify-center gap-[30px] font-['Montserrat'] font-bold ">
+          <div className="flex flex-col justify-center gap-[30px] font-['Montserrat'] font-bold text-center">
             <p className="text-[40px] text-dark-blue">Start your 14 days free trial</p>
             <p className="text-[14px] font-[400] text-md-grey">
               Met minim Mollie non desert Alamo est sit cliquey dolor <br />
               do met sent. RELIT official consequent.
             </p>
-            <button className="btn-third rounded m-auto">
+            <button className="btn-third rounded m-auto border-none">
               Try it free now
             </button>
 
@@ -150,7 +58,7 @@ function Team() {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 }
 

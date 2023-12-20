@@ -1,5 +1,5 @@
 import React from 'react'
-import TeamCard from "../TeamCard";
+import TeamCard from '../team/TeamCard';
 import { Link } from 'react-router-dom';
 
 function TeamSection() {

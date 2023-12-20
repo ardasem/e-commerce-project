@@ -26,6 +26,7 @@ module.exports = {
         'font-grey' : '#858585',
         'light-green': '#47AD97',
         'green': '#2DC071',
+        'md-green': '#23856D'
       },
       fontFamily: {
         montserrat: ['Monsterrat', 'sans-serif'],

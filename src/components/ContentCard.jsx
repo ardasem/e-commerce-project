@@ -37,7 +37,7 @@ function ContentCard(props) {
             </div>
           </section>
 
-          <div className="flex flex-row items-center gap-2 justify-start items-center">
+          <div className="flex flex-row gap-[10px] justify-start items-center">
             <p>Learn More</p>
             <FontAwesomeIcon icon={faChevronRight} color="#23A6F0" />
           </div>
