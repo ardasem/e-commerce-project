@@ -23,6 +23,7 @@ function BestSeller() {
             name={"Graphic Design"}
             oldPrice={16.88}
             price={6.48}
+            options={true}
           />
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
@@ -30,6 +31,7 @@ function BestSeller() {
             name={"Graphic Design"}
             oldPrice={16.88}
             price={6.48}
+            options={true}
           />
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
@@ -37,6 +39,7 @@ function BestSeller() {
             name={"Graphic Design"}
             oldPrice={16.88}
             price={6.48}
+            options={true}
           />
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
@@ -44,6 +47,7 @@ function BestSeller() {
             name={"Graphic Design"}
             oldPrice={16.88}
             price={6.48}
+            options={true}
           />
         </div>
         <div className="flex flex-row gap-4">
@@ -53,6 +57,7 @@ function BestSeller() {
             name={"Graphic Design"}
             oldPrice={16.88}
             price={6.48}
+            options={true}
           />
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
@@ -60,6 +65,7 @@ function BestSeller() {
             name={"Graphic Design"}
             oldPrice={16.88}
             price={6.48}
+            options={true}
           />
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
@@ -67,6 +73,7 @@ function BestSeller() {
             name={"Graphic Design"}
             oldPrice={16.88}
             price={6.48}
+            options={true}
           />
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
@@ -74,6 +81,7 @@ function BestSeller() {
             name={"Graphic Design"}
             oldPrice={16.88}
             price={6.48}
+            options={true}
           />
         </div>
       </div>

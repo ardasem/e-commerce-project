@@ -3,6 +3,7 @@ import ProductListCategory from "../components/productlist/ProductListCategory";
 import FilterComponent from "../components/productlist/FilterComponent";
 import ProductCard from "../components/ProductCard";
 import PageIndicator from "../components/productlist/PageIndicator";
+import Brands from "../components/Brands";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -142,15 +143,7 @@ function ProductList({numberofpages}) {
       </div>
        <PageIndicator/>
 
-       <div className="flex flex-row px-[195px] py-[50px] gap-[30px] justify-around items-center">
-            <img src="/assets/fa-brands-1.png" alt="" />
-            <img src="/assets/fa-brands-2.png" alt="" />
-            <img src="/assets/fa-brands-3.png" alt="" />
-            <img src="/assets/fa-brands-4.png" alt="" />
-            <img src="/assets/fa-brands-5.png" alt="" />
-            <img src="/assets/fa-brands-6.png" alt="" />
-          </div>
-
+      <Brands />
     
     </div>
   );
