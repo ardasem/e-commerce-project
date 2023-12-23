@@ -9,7 +9,7 @@ function EditorsPick() {
           Problems trying to resolve the conflict between         </p>
       </div>
 
-      <div className="flex flex-row justify-center gap-3 m-5">
+      <div className="flex flex-row justify-center gap-3 m-5 md:flex-col">
         <div className="relative">
           <img className="w-full" src="/assets/men.png" alt="" />
           <p className="absolute bottom-[1px] left-[70px] transform -translate-x-1/2 -translate-y-1/2 text-black text-lg font-bold bg-white  px-[30px] py-2">

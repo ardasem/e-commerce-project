@@ -57,6 +57,7 @@ function ProductList({numberofpages}) {
             name={"Graphic Design"}
             oldPrice={16.88}
             price={6.48}
+            options={1}
           />
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
@@ -64,6 +65,7 @@ function ProductList({numberofpages}) {
             name={"Graphic Design"}
             oldPrice={16.88}
             price={6.48}
+            options={1}
           />
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
@@ -71,6 +73,7 @@ function ProductList({numberofpages}) {
             name={"Graphic Design"}
             oldPrice={16.88}
             price={6.48}
+            options={1}
           />
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
@@ -78,36 +81,7 @@ function ProductList({numberofpages}) {
             name={"Graphic Design"}
             oldPrice={16.88}
             price={6.48}
-          />
-        </div>{" "}
-        <div className="flex flex-row gap-3 justify-center items-center">
-          <ProductCard
-            imgUrl={"/assets/product-cover-5.png"}
-            category={"English"}
-            name={"Graphic Design"}
-            oldPrice={16.88}
-            price={6.48}
-          />
-          <ProductCard
-            imgUrl={"/assets/product-cover-5.png"}
-            category={"English"}
-            name={"Graphic Design"}
-            oldPrice={16.88}
-            price={6.48}
-          />
-          <ProductCard
-            imgUrl={"/assets/product-cover-5.png"}
-            category={"English"}
-            name={"Graphic Design"}
-            oldPrice={16.88}
-            price={6.48}
-          />
-          <ProductCard
-            imgUrl={"/assets/product-cover-5.png"}
-            category={"English"}
-            name={"Graphic Design"}
-            oldPrice={16.88}
-            price={6.48}
+            options={1}
           />
         </div>{" "}
         <div className="flex flex-row gap-3 justify-center items-center">
@@ -117,6 +91,7 @@ function ProductList({numberofpages}) {
             name={"Graphic Design"}
             oldPrice={16.88}
             price={6.48}
+            options={1}
           />
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
@@ -124,6 +99,7 @@ function ProductList({numberofpages}) {
             name={"Graphic Design"}
             oldPrice={16.88}
             price={6.48}
+            options={1}
           />
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
@@ -131,6 +107,7 @@ function ProductList({numberofpages}) {
             name={"Graphic Design"}
             oldPrice={16.88}
             price={6.48}
+            options={1}
           />
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
@@ -138,6 +115,41 @@ function ProductList({numberofpages}) {
             name={"Graphic Design"}
             oldPrice={16.88}
             price={6.48}
+            options={1}
+          />
+        </div>{" "}
+        <div className="flex flex-row gap-3 justify-center items-center">
+          <ProductCard
+            imgUrl={"/assets/product-cover-5.png"}
+            category={"English"}
+            name={"Graphic Design"}
+            oldPrice={16.88}
+            price={6.48}
+            options={1}
+          />
+          <ProductCard
+            imgUrl={"/assets/product-cover-5.png"}
+            category={"English"}
+            name={"Graphic Design"}
+            oldPrice={16.88}
+            price={6.48}
+            options={1}
+          />
+          <ProductCard
+            imgUrl={"/assets/product-cover-5.png"}
+            category={"English"}
+            name={"Graphic Design"}
+            oldPrice={16.88}
+            price={6.48}
+            options={1}
+          />
+          <ProductCard
+            imgUrl={"/assets/product-cover-5.png"}
+            category={"English"}
+            name={"Graphic Design"}
+            oldPrice={16.88}
+            price={6.48}
+            options={1}
           />
         </div>
       </div>
