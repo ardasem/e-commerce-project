@@ -7,19 +7,19 @@ import Brands from "../components/Brands";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
-function ProductList({numberofpages}) {
+function ProductList({ numberofpages }) {
   return (
-    
     <div>
-      <div className="w-full flex flex-row px-[195.5px] justify-between font-['Montserrat'] bg-transparent-grey items-center py-[24px]">
-      <p className="text-[24px] font-[700]">Shop</p>
-      <div className="flex flex-row gap-[5px] items-center">
-        <p className="font-[16px] text-[#252B42]">Home</p>
-        <FontAwesomeIcon icon={faChevronRight}  color={'#BDBDBD'}/>
-        <p className="font-[16px] text-light-grey">Shop</p>
+      <div className="w-full flex flex-col md:flex-row gap-[20px] md:gap-[0px] px-[195.5px] justify-between font-['Montserrat'] bg-transparent-grey items-center py-[24px]">
+        <p className="text-[24px] font-[700]">Shop</p>
+        <div className="flex flex-row gap-[5px] items-center">
+          <p className="font-[16px] text-[#252B42]">Home</p>
+          <FontAwesomeIcon icon={faChevronRight} color={"#BDBDBD"} />
+          <p className="font-[16px] text-light-grey">Shop</p>
+        </div>
       </div>
-      </div>
-      <div className="flex flex-row gap-[15px] px-[176px] pb-[48px] bg-transparent-grey justify-center items-center">
+
+      <div className="flex flex-col gap-[15px] px-[176px] pb-[48px] bg-transparent-grey md:flex-row justify-center items-center">
         <ProductListCategory
           imgUrl={"/assets/card-bg-cover.png"}
           category={"cloth"}
@@ -50,7 +50,7 @@ function ProductList({numberofpages}) {
       <FilterComponent res={12} />
 
       <div className="flex flex-col px-[195px] gap-[48px]">
-        <div className="flex flex-row gap-[30px] items-center">
+        <div className="flex flex-col md:flex-row gap-[30px] items-center">
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
             category={"English"}
@@ -84,7 +84,7 @@ function ProductList({numberofpages}) {
             options={1}
           />
         </div>{" "}
-        <div className="flex flex-row gap-3 justify-center items-center">
+        <div className="flex flex-col md:flex-row gap-3 justify-center items-center">
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
             category={"English"}
@@ -118,7 +118,7 @@ function ProductList({numberofpages}) {
             options={1}
           />
         </div>{" "}
-        <div className="flex flex-row gap-3 justify-center items-center">
+        <div className="flex flex-col md:flex-row gap-3 justify-center items-center">
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
             category={"English"}
@@ -153,10 +153,9 @@ function ProductList({numberofpages}) {
           />
         </div>
       </div>
-       <PageIndicator/>
+      <PageIndicator />
 
       <Brands />
-    
     </div>
   );
 }

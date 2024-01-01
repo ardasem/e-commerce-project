@@ -13,7 +13,7 @@ function FeaturedPosts() {
         </p>
       </div>
 
-      <section className="flex flex-row justify-center items-center gap-5">
+      <section className="flex flex-col justify-center items-center gap-5 md:flex-row">
         <ContentCard
           heading={"Loudest à la Madison #1 (L'integral)"}
           content={

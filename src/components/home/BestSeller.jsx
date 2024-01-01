@@ -16,7 +16,7 @@ function BestSeller() {
         </p>
       </div>
       <div className="flex flex-col gap-y-[80px]">
-        <div className="flex flex-row gap-x-[30px]">
+        <div className="flex flex-col gap-x-[30px] md:flex-row">
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
             category={"English"}
@@ -50,7 +50,7 @@ function BestSeller() {
             options={true}
           />
         </div>
-        <div className="flex flex-row gap-4">
+        <div className="flex flex-col gap-x-[30px] md:flex-row">
           <ProductCard
             imgUrl={"/assets/product-cover-5.png"}
             category={"English"}

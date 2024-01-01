@@ -26,7 +26,7 @@ function DetailSection() {
         </div>
       </div>
 
-      <div className="flex flex-row justify-around px-[195px] gap-[30px] items-start">
+      <div className="flex flex-col md:flex-row justify-center md:justify-around px-[195px] gap-[30px] items-start">
         <div className="flex-1 min-w-[316px]">
           <img src="/assets/unsplash-detail.png" alt="" />
         </div>

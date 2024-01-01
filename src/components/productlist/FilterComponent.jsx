@@ -4,7 +4,7 @@ import { faGripVertical, faList } from "@fortawesome/free-solid-svg-icons";
 
 function FilterComponent({ res }) {
   return (
-    <div className=" flex flex-row justify-between items-center px-[195px] py-[24px] font-['Montserrat'] font-[700] text-md-grey">
+    <div className=" flex flex-col md:flex-row gap-[24px] justify-between items-center px-[195px] py-[24px] font-['Montserrat'] font-[700] text-md-grey">
       
         <p className="font-['Montserrat'] font-[700] text-md-grey">Showing all {res} results</p>
       

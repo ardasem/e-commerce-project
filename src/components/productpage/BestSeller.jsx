@@ -13,7 +13,7 @@ function BestSeller() {
       </div>
 
       <div className="flex flex-col">
-        <div className="flex flex-row  gap-x-[30px]">
+        <div className="flex flex-col md:flex-row  gap-x-[30px]">
           <ProductCard
             imgUrl={"/assets/product-cover-best.png"}
             category={"English"}
@@ -43,7 +43,7 @@ function BestSeller() {
             price={6.48}
           />
         </div>
-        <div className="flex flex-row flex-1 gap-x-[30px]">
+        <div className="flex flex-col md:flex-row flex-1 gap-x-[30px]">
           <ProductCard
             imgUrl={"/assets/product-cover-best.png"}
             category={"English"}

@@ -9,15 +9,16 @@ function Header() {
     <header className="flex flex-col gap-[12px]">
       <DarkBar />
 
-      <div className="flex flex-row items-center pb-[8px] pl-[38px] pr-[17px]">
-        <div className="py-[13px] pr-[49px]">
+      <div className="flex flex-row items-center pb-[8px] pl-[38px] pr-[17px] justify-between">
+        <div className="flex flex-row items-center py-[13px] pr-[49px] gap-[40px]">
           <Link className="text-dark-blue font-bold text-[24px] font-['Montserrat'] leading-[32px] flex-none" to="/">
             Bandage
           </Link>
+          <Navbar />
         </div>
 
-        <div className="flex flex-row items-center gap-[371px]">
-          <Navbar />
+        <div className="flex flex-row items-center">
+         
           <LoginBar />
         </div>
       </div>

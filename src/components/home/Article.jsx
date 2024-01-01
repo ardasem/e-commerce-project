@@ -2,7 +2,7 @@ import React from "react";
 
 function Article() {
   return (
-    <div className="flex flex-row justify-center items-center gap-[30px] ">
+    <div className="flex flex-col-reverse justify-center items-center text-center gap-[30px] md:flex-row md:text-left">
       <img src="/assets/asian-woman-man-with-winter-clothes 1.png" alt="" />
 
       <div className="flex flex-col gap-[30px] p-10">
