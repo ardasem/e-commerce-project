@@ -11,7 +11,7 @@ function TeamSection() {
       of Classical physics: Newtonian mechanics{" "}
     </p>
 
-    <div className="flex flex-row justify-center gap-3">
+    <div className="flex flex-col md:flex-row justify-center gap-3">
       <TeamCard
         username={"Username"}
         profession={"Profession"}

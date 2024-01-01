@@ -2,8 +2,8 @@ import React from 'react'
 
 function AboutHero() {
   return (
-    <div className="flex flex-row justify-between items-center  gap-[30px] mx-[195px]">
-        <div className="flex flex-col justify-start gap-[35px] font-['Montserrat'] font-bold ">
+    <div className="flex flex-col md:flex-row justify-between items-center  gap-[30px] mx-[195px]">
+        <div className="flex flex-col justify-center items-center md:items-start md:justify-start gap-[35px] font-['Montserrat'] font-bold ">
           <p className="text-[20px] font-[700 text-dark-blue">ABOUT COMPANY</p>
           <p className="text-[58px] font-[700] text-dark-blue">ABOUT US</p>
           <p className="text-[20px] font-[400] text-light-grey">
