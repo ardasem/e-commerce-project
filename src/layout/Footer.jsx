@@ -11,7 +11,7 @@ function Footer() {
   return (
     <footer className="flex flex-col ">
       <div className=" px-[195px] bg-transparent-grey">
-        <div className="flex flex-row items-center py-[40px] gap-[577.5px]">
+        <div className="flex flex-col md:flex-row md:items-center py-[40px] md:gap-[577.5px]">
           <div className="py-[13px] pr-[49px]">
             <Link
               className="text-dark-blue font-bold text-[24px] font-['Montserrat'] leading-[32px]"
@@ -21,7 +21,7 @@ function Footer() {
             </Link>
           </div>
 
-          <div className=" flex flex-row justify-center gap-[20px]">
+          <div className=" flex flex-row md:justify-center gap-[20px]">
             <a href="https://facebook.com" target="_blank">
               <FontAwesomeIcon icon={faFacebook} size="xl" color="#23A6F0" />
             </a>
@@ -37,7 +37,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex flex-row items-start font-['Montserrat'] font-[700] text-[14px] gap-[30px] px-[195px] py-[50px]">
+      <div className="flex flex-col md:flex-row items-start font-['Montserrat'] font-[700] text-[14px] gap-[30px] px-[195px] py-[50px]">
         <div className="flex flex-col gap-[20px] w-[148px] leading-normal tracking-tight">
           <p className="text-[#252B42]">Company Info</p>
 

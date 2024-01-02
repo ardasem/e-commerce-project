@@ -8,7 +8,7 @@ import {
 
 function TeamCard({ imgUrl, username, profession, fbLink, igLink, twLink }) {
   return (
-    <div className="flex flex-col gap-3 text-center">
+    <div className="flex flex-col gap-3 text-center px-[40px] md:px-[0px]">
       <img src={imgUrl} alt="" />
       <div className="flex flex-col gap-[10px] p-[30px]">
         <p className="font-['Montserrat'] font-bold text-[16px] text-dark-blue">

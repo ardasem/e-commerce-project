@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactAction() {
   return (
-    <div className="px-[195px] flex flex-col justify-center items-center py-[80px]">
+    <div className="px-[195px] flex flex-col justify-center items-center py-[40px] md:py-[80px]">
       <svg
       className="mb-[19px]"
         xmlns="http://www.w3.org/2000/svg"

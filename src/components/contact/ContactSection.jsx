@@ -3,14 +3,14 @@ import ContactCard from "./ContactCard";
 
 function ContactSection() {
   return (
-    <div className="flex flex-col px-[195px] justify-center gap-[80px] py-[112px]">
-        
+    <div className="flex flex-col px-[195px] justify-center gap-[40px] md:gap-[80px] py-[60px] md:py-[112px]">
+
       <div className="flex flex-col gap-[10px] text-center">
         <h6 className='font-["Montserrat"] font-[700] text-[14px] text-dark-blue'>VISIT OUR OFFICE</h6>
         <h2 className='font-["Montserrat"] font-[700] text-[40px] text-dark-blue'>We help small businesses with big ideas</h2>
       </div>
 
-      <div className="flex flex-row">
+      <div className="flex flex-col md:flex-row">
         <ContactCard
           bgColor={"#FFFFFF"}
           mailOne={"georgia.young@example.com"}

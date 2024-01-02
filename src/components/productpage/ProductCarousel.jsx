@@ -39,7 +39,7 @@ function ProductCarousel() {
   ));
   
     return (
-        <div  className='flex flex-col w-[200%]' >
+        <div  className='flex flex-col w-full' >
           <Carousel
             previous={previousButton}
             next={nextButton}

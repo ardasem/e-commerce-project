@@ -9,11 +9,11 @@ import { Link } from "react-router-dom/";
 
 function About() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col justify-center">
       <AboutHero />
       <AboutTextArea />
       <SuccessRate />
-      <img className="m-auto" src="/assets/Videocard.png" alt="" />
+      <img className="m-auto p-[40px] md:p-[0px]" src="/assets/Videocard.png" alt="" />
       <TeamSection />
       <Companies />
     </div>
