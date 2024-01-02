@@ -2,7 +2,7 @@ import React from 'react'
 
 function TeamHero() {
   return (
-    <div className="flex flex-row gap-[10px]">
+    <div className="flex flex-col md:flex-row gap-[10px]">
         <div className="flex-1">
         <img  src="/assets/unsplash11.png" alt="" />
         </div>

@@ -8,7 +8,7 @@ function TeamCardsContainer() {
         Meet Our Team
       </p>
 
-      <div className="flex flex-row justify-center gap-[30px]">
+      <div className="flex flex-col md:flex-row justify-center gap-[30px]">
         <TeamCard
           username={"Username"}
           profession={"Profession"}
@@ -34,7 +34,7 @@ function TeamCardsContainer() {
           imgUrl={"/assets/team-1-user-1.jpg"}
         />
       </div>
-      <div className="flex flex-row justify-center gap-[30px]">
+      <div className="flex flex-col md:flex-row justify-center gap-[30px]">
         <TeamCard
           username={"Username"}
           profession={"Profession"}
@@ -61,7 +61,7 @@ function TeamCardsContainer() {
         />
       </div>
 
-      <div className="flex flex-row justify-center gap-[30px]">
+      <div className="flex flex-col md:flex-row justify-center gap-[30px]">
         <TeamCard
           username={"Username"}
           profession={"Profession"}

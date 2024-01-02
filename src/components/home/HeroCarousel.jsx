@@ -40,7 +40,7 @@ function Hero() {
   ));
 
   return (
-    <div style={{ display: "block", width: "100%" }}>
+    <div className="w-full">
       <Carousel
         previous={previousButton}
         next={nextButton}
