@@ -6,13 +6,15 @@ import {
   faMagnifyingGlass,
   faHeart,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 function LoginBar() {
   return (
     <div className="flex flex-row text-light-blue font-['Montserrat'] text-[14px]">
       <div className="flex flex-row items-center p-[15px] gap-[5px]">
         <FontAwesomeIcon icon={faUser} color="#23A6F0" />
-        <p className="font-bold whitespace-nowrap">Login / Register</p>
+        <Link to='/signup'><p className="font-bold whitespace-nowrap">Login / Register</p></Link>
+        
       </div>
 
       <div className="flex flex-row items-center p-[15px] gap-[5px]">

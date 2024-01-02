@@ -6,6 +6,7 @@ import About from "../pages/About";
 import Team from "../pages/Team";
 import ProductPage from "../pages/ProductPage";
 import Contact from "../pages/Contact";
+import SignUp from "../pages/SignUp";
 
 function PageContent() {
   return (
@@ -28,6 +29,9 @@ function PageContent() {
         </Route>
         <Route  path="/contact">
           <Contact />
+        </Route>
+        <Route  path="/signup">
+          <SignUp />
         </Route>
 
 
