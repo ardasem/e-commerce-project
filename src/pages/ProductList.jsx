@@ -20,6 +20,8 @@ function ProductList({ numberofpages }) {
       </div>
 
       <div className="flex flex-col gap-[15px] px-[176px] pb-[48px] bg-transparent-grey md:flex-row justify-center items-center">
+        <div className="flex flex-col md:flex-row gap-[30px] items-center">
+
         <ProductListCategory
           imgUrl={"/assets/card-bg-cover.png"}
           category={"cloth"}
@@ -45,6 +47,7 @@ function ProductList({ numberofpages }) {
           category={"cloth"}
           itemCount={8}
         />
+        </div>
       </div>
 
       <FilterComponent res={12} />

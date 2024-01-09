@@ -10,7 +10,7 @@ function ContactSection() {
         <h2 className='font-["Montserrat"] font-[700] text-[40px] text-dark-blue'>We help small businesses with big ideas</h2>
       </div>
 
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col md:flex-row justify-center">
         <ContactCard
           bgColor={"#FFFFFF"}
           mailOne={"georgia.young@example.com"}
