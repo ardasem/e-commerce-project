@@ -30,51 +30,85 @@ function SignUp() {
 
   const onSubmit = (data) => console.log(data);
 
-  console.log(watch("example")); // watch input value by passing the name of it
-
   return (
-    /* "handleSubmit" will validate your inputs before invoking "onSubmit" */
     <form
       className="flex flex-col gap-[30px] px-[195px] py-[40px]"
       action="submit"
       onSubmit={handleSubmit(onSubmit)}
     >
-      <input defaultValue="test" {...register("example")} />
+      <div className="flex flex-row justify-around items-center">
+        <label className="flex flex-row  gap-[20px] items-center" htmlFor="">
+          First Name
+        </label>
+        <input
+          className="border-2 flex-1/2"
+          type="text"
+          name="firstName"
+          {...register("firstName", { required: true, minLength: 3 })}
+        />
+        {errors.firstName && (
+          <span>The name cannot be shorter than 3 letters.</span>
+        )}
+      </div>
 
-      {/* include validation with required or other standard HTML validation rules */}
-      <input {...register("exampleRequired", { required: true })} />
-      {/* errors will return when field validation fails  */}
-      {errors.exampleRequired && <span>This field is required</span>}
+      <div className="flex flex-row justify-around items-center">
+        <label className="flex flex-row  gap-[20px] items-center" htmlFor="">
+          Last Name
+        </label>
+        <input
+          className="border-2 flex-1"
+          type="text"
+          name="lastName"
+          {...register("lastName", { required: true, minLength: 3 })}
+        />
+        {errors.firstName && (
+          <span>The lastname cannot be shorter than 3 letters.</span>
+        )}
+      </div>
 
-      <input type="submit" />
+      <div className="flex flex-row justify-around items-center">
+        <label className="flex flex-row gap-[20px] items-center" htmlFor="">
+          Email
+        </label>
+        <input
+          className="border-2"
+          type="e-mail"
+          name="email"
+          {...register("email", {required:true,
+            pattern: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i,
+          })}
+        />
+        {errors.email && <span>The email is not valid.</span>}
+      </div>
 
-      <label className="flex flex-row  gap-[20px] items-center" htmlFor="">
-        First Name
-        <input className="border-2 flex-1" type="text" name="firstName" {...register("firstName", { required: true, minLength: 3 })} />
-      </label>
-      {errors.firstName && <span>The name cannot be shorter than 3 letters.</span>}
+      <div className="flex flex-row justify-around items-center">
+        <label className="flex flex-row gap-[20px] items-center" htmlFor="">
+          Password
+        </label>
+        <input className="border-2" type="text" name="" id=""  {...register("password", {required:true,
+          })} />
+           {errors.password && <span>Password is required.</span>}
+      </div>
 
-      <label className="flex flex-row  gap-[20px] items-center" htmlFor="">
-        Last Name
-        <input className="border-2 flex-1" type="text" name="lastName" {...register("lastName", { required: true, minLength: 3 })} />
-      </label>
-      {errors.firstName && <span>The lastname cannot be shorter than 3 letters.</span>}
+      <div className="flex flex-col justify-around items-center">
+        <label className="flex flex-row gap-[20px] items-center" htmlFor="">
+          Password again
+        </label>
+        <input className="border-2" type="text" name="" id="" {...register("confirm_password", {
+  required: true,
+  validate: (val) => {
+    if (watch('password') != val) {
+      return "Your passwords do no match";
+    }
+  },
+ })}/>
+  {errors.confirm_password && <span>The passwords doesn't match</span>}
+      </div>
 
-      <label className="flex flex-row gap-[20px] items-center" htmlFor="">
-        Email
-        <input className="border-2" type="e-mail" name="email" {...register("email", { pattern: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i })} />
-      </label>
-      {errors.firstName && <span>The email is not valid.</span>}
-      <label className="flex flex-row gap-[20px] items-center" htmlFor="">
-        Password
-        <input className="border-2" type="text" name="" id="" />
-      </label>
-      <label className="flex flex-row gap-[20px] items-center" htmlFor="">
-        Password again
-        <input className="border-2" type="text" name="" id="" />
-      </label>
-      <label className="flex flex-row gap-[20px] items-center" htmlFor="">
-        Role
+      <div className="flex flex-row justify-around items-center">
+        <label className="flex flex-row gap-[20px] items-center" htmlFor="">
+          Role
+        </label>
         <select id="yourSelect" value={selectedValue}>
           {roles.map((item) => (
             <option key={item.id} code={item.id}>
@@ -82,7 +116,8 @@ function SignUp() {
             </option>
           ))}
         </select>
-      </label>
+      </div>
+      <input type="submit" />
     </form>
   );
 }
