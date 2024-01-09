@@ -19,6 +19,7 @@ function SignUp() {
         const response = await axios.get(
           "https://workintech-fe-ecommerce.onrender.com/roles"
         );
+        console.log(response.data)
         setRoles(response.data);
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -29,6 +30,12 @@ function SignUp() {
   }, []);
 
   const onSubmit = (data) => console.log(data);
+
+  const handleSelectChange = (e)=>{
+    console.log(e.target.name)
+    setSelectedValue(e.target.name);
+    console.log(selectedValue)
+  }
 
   return (
     <form
@@ -86,11 +93,12 @@ function SignUp() {
           Password
         </label>
         <input className="border-2" type="text" name="" id=""  {...register("password", {required:true,
+        pattern : /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/i,
           })} />
            {errors.password && <span>Password is required.</span>}
       </div>
 
-      <div className="flex flex-col justify-around items-center">
+      <div className="flex flex-row justify-around items-center">
         <label className="flex flex-row gap-[20px] items-center" htmlFor="">
           Password again
         </label>
@@ -109,9 +117,10 @@ function SignUp() {
         <label className="flex flex-row gap-[20px] items-center" htmlFor="">
           Role
         </label>
-        <select id="yourSelect" value={selectedValue}>
+        THIS IS NOT WORKING!!!
+        <select id="yourSelect"  onChange={()=>handleSelectChange}>
           {roles.map((item) => (
-            <option key={item.id} code={item.id}>
+            <option key={item.id} code={item.id} value={item.name}>
               {item.name}
             </option>
           ))}
